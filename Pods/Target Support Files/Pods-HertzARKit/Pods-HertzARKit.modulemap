@@ -1,0 +1,6 @@
+framework module Pods_HertzARKit {
+  umbrella header "Pods-HertzARKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

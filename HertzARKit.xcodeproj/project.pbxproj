@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		155C5050D777AB81D547FB50 /* Pods_HertzARKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CAB96E7D131025D08BAFEA /* Pods_HertzARKitTests.framework */; };
+		5FD54D2074B0070A8471DFF9 /* Pods_HertzARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C1C6189C036836FA9341 /* Pods_HertzARKit.framework */; };
+		E43B4E4C06DFEEAB0BC684CB /* Pods_HertzARKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6534C7099470501F2F9172 /* Pods_HertzARKitUITests.framework */; };
+		FCABB18D2269730E008DA089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB18C2269730E008DA089 /* AppDelegate.swift */; };
+		FCABB18F2269730E008DA089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB18E2269730E008DA089 /* ViewController.swift */; };
+		FCABB1922269730E008DA089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1902269730E008DA089 /* Main.storyboard */; };
+		FCABB1942269730F008DA089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1932269730F008DA089 /* Assets.xcassets */; };
+		FCABB1972269730F008DA089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1952269730F008DA089 /* LaunchScreen.storyboard */; };
+		FCABB1A22269730F008DA089 /* HertzARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB1A12269730F008DA089 /* HertzARKitTests.swift */; };
+		FCABB1AD2269730F008DA089 /* HertzARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB1AC2269730F008DA089 /* HertzARKitUITests.swift */; };
+		FCABB1BB226983DB008DA089 /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB1BA226983DB008DA089 /* ViewController+ARSessionDelegate.swift */; };
+		FCABB1BD22698405008DA089 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB1BC22698405008DA089 /* StatusViewController.swift */; };
+		FCABB1C022698750008DA089 /* EffectNodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB1BF22698750008DA089 /* EffectNodeHelper.swift */; };
+		FCABB1C222698774008DA089 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB1C122698774008DA089 /* VideoHelper.swift */; };
+		FCABB1C422698793008DA089 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABB1C322698793008DA089 /* AnimationHelper.swift */; };
+		FCABB1CB226987E6008DA089 /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1C6226987E5008DA089 /* loader.json */; };
+		FCABB1CC226987E6008DA089 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1C7226987E5008DA089 /* heart.json */; };
+		FCABB1CD226987E6008DA089 /* ROL_Connecting.json in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1C8226987E6008DA089 /* ROL_Connecting.json */; };
+		FCABB1CE226987E6008DA089 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1C9226987E6008DA089 /* confetti.json */; };
+		FCABB1CF226987E6008DA089 /* love_explosion.json in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1CA226987E6008DA089 /* love_explosion.json */; };
+		FCABB1D62269880A008DA089 /* Fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1D122698809008DA089 /* Fire.mp4 */; };
+		FCABB1D72269880A008DA089 /* MANO_OJO.mov in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1D222698809008DA089 /* MANO_OJO.mov */; };
+		FCABB1D82269880A008DA089 /* MuseoMarAnimacionAlpha.mov in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1D32269880A008DA089 /* MuseoMarAnimacionAlpha.mov */; };
+		FCABB1D92269880A008DA089 /* Plane.mov in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1D42269880A008DA089 /* Plane.mov */; };
+		FCABB1DA2269880A008DA089 /* MuseoMarAnimacion.mov in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1D52269880A008DA089 /* MuseoMarAnimacion.mov */; };
+		FCABB1DC226A04D6008DA089 /* Phone_01.scn in Resources */ = {isa = PBXBuildFile; fileRef = FCABB1DB226A04D6008DA089 /* Phone_01.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCABB19E2269730F008DA089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCABB1812269730E008DA089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCABB1882269730E008DA089;
+			remoteInfo = HertzARKit;
+		};
+		FCABB1A92269730F008DA089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCABB1812269730E008DA089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCABB1882269730E008DA089;
+			remoteInfo = HertzARKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A6534C7099470501F2F9172 /* Pods_HertzARKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HertzARKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC8C1C6189C036836FA9341 /* Pods_HertzARKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HertzARKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA24951DF52D2E8BF482CA6 /* Pods-HertzARKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HertzARKit.release.xcconfig"; path = "Target Support Files/Pods-HertzARKit/Pods-HertzARKit.release.xcconfig"; sourceTree = "<group>"; };
+		66829A6A762B66AEFFBCEAC7 /* Pods-HertzARKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HertzARKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-HertzARKitUITests/Pods-HertzARKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		741ED10C7DF34EE661DEC94E /* Pods-HertzARKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HertzARKit.debug.xcconfig"; path = "Target Support Files/Pods-HertzARKit/Pods-HertzARKit.debug.xcconfig"; sourceTree = "<group>"; };
+		83FF45E38600474C0F0D2A80 /* Pods-HertzARKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HertzARKitTests.debug.xcconfig"; path = "Target Support Files/Pods-HertzARKitTests/Pods-HertzARKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3B9DA1DA51CA905718F127 /* Pods-HertzARKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HertzARKitUITests.release.xcconfig"; path = "Target Support Files/Pods-HertzARKitUITests/Pods-HertzARKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF590D0F0CC73B118A37E064 /* Pods-HertzARKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HertzARKitTests.release.xcconfig"; path = "Target Support Files/Pods-HertzARKitTests/Pods-HertzARKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2CAB96E7D131025D08BAFEA /* Pods_HertzARKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HertzARKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCABB1892269730E008DA089 /* HertzARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HertzARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCABB18C2269730E008DA089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCABB18E2269730E008DA089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCABB1912269730E008DA089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCABB1932269730F008DA089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCABB1962269730F008DA089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCABB1982269730F008DA089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCABB19D2269730F008DA089 /* HertzARKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HertzARKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCABB1A12269730F008DA089 /* HertzARKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HertzARKitTests.swift; sourceTree = "<group>"; };
+		FCABB1A32269730F008DA089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCABB1A82269730F008DA089 /* HertzARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HertzARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCABB1AC2269730F008DA089 /* HertzARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HertzARKitUITests.swift; sourceTree = "<group>"; };
+		FCABB1AE2269730F008DA089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCABB1BA226983DB008DA089 /* ViewController+ARSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSessionDelegate.swift"; sourceTree = "<group>"; };
+		FCABB1BC22698405008DA089 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		FCABB1BF22698750008DA089 /* EffectNodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectNodeHelper.swift; sourceTree = "<group>"; };
+		FCABB1C122698774008DA089 /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		FCABB1C322698793008DA089 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		FCABB1C6226987E5008DA089 /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		FCABB1C7226987E5008DA089 /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		FCABB1C8226987E6008DA089 /* ROL_Connecting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ROL_Connecting.json; sourceTree = "<group>"; };
+		FCABB1C9226987E6008DA089 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		FCABB1CA226987E6008DA089 /* love_explosion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = love_explosion.json; sourceTree = "<group>"; };
+		FCABB1D122698809008DA089 /* Fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire.mp4; sourceTree = "<group>"; };
+		FCABB1D222698809008DA089 /* MANO_OJO.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = MANO_OJO.mov; sourceTree = "<group>"; };
+		FCABB1D32269880A008DA089 /* MuseoMarAnimacionAlpha.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = MuseoMarAnimacionAlpha.mov; sourceTree = "<group>"; };
+		FCABB1D42269880A008DA089 /* Plane.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Plane.mov; sourceTree = "<group>"; };
+		FCABB1D52269880A008DA089 /* MuseoMarAnimacion.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = MuseoMarAnimacion.mov; sourceTree = "<group>"; };
+		FCABB1DB226A04D6008DA089 /* Phone_01.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Phone_01.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCABB1862269730E008DA089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD54D2074B0070A8471DFF9 /* Pods_HertzARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCABB19A2269730F008DA089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155C5050D777AB81D547FB50 /* Pods_HertzARKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCABB1A52269730F008DA089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43B4E4C06DFEEAB0BC684CB /* Pods_HertzARKitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877FEC65046C1C2849BEF950 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8C1C6189C036836FA9341 /* Pods_HertzARKit.framework */,
+				E2CAB96E7D131025D08BAFEA /* Pods_HertzARKitTests.framework */,
+				4A6534C7099470501F2F9172 /* Pods_HertzARKitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		977C55BBAEF62AF01CB81C01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				741ED10C7DF34EE661DEC94E /* Pods-HertzARKit.debug.xcconfig */,
+				5DA24951DF52D2E8BF482CA6 /* Pods-HertzARKit.release.xcconfig */,
+				83FF45E38600474C0F0D2A80 /* Pods-HertzARKitTests.debug.xcconfig */,
+				CF590D0F0CC73B118A37E064 /* Pods-HertzARKitTests.release.xcconfig */,
+				66829A6A762B66AEFFBCEAC7 /* Pods-HertzARKitUITests.debug.xcconfig */,
+				AA3B9DA1DA51CA905718F127 /* Pods-HertzARKitUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCABB1802269730E008DA089 = {
+			isa = PBXGroup;
+			children = (
+				FCABB18B2269730E008DA089 /* HertzARKit */,
+				FCABB1A02269730F008DA089 /* HertzARKitTests */,
+				FCABB1AB2269730F008DA089 /* HertzARKitUITests */,
+				FCABB18A2269730E008DA089 /* Products */,
+				977C55BBAEF62AF01CB81C01 /* Pods */,
+				877FEC65046C1C2849BEF950 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCABB18A2269730E008DA089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB1892269730E008DA089 /* HertzARKit.app */,
+				FCABB19D2269730F008DA089 /* HertzARKitTests.xctest */,
+				FCABB1A82269730F008DA089 /* HertzARKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCABB18B2269730E008DA089 /* HertzARKit */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB1D0226987F4008DA089 /* Videos */,
+				FCABB1C5226987C7008DA089 /* Animations */,
+				FCABB1BE2269873D008DA089 /* Helpers */,
+				FCABB18C2269730E008DA089 /* AppDelegate.swift */,
+				FCABB18E2269730E008DA089 /* ViewController.swift */,
+				FCABB1BA226983DB008DA089 /* ViewController+ARSessionDelegate.swift */,
+				FCABB1BC22698405008DA089 /* StatusViewController.swift */,
+				FCABB1902269730E008DA089 /* Main.storyboard */,
+				FCABB1932269730F008DA089 /* Assets.xcassets */,
+				FCABB1952269730F008DA089 /* LaunchScreen.storyboard */,
+				FCABB1982269730F008DA089 /* Info.plist */,
+				FCABB1DB226A04D6008DA089 /* Phone_01.scn */,
+			);
+			path = HertzARKit;
+			sourceTree = "<group>";
+		};
+		FCABB1A02269730F008DA089 /* HertzARKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB1A12269730F008DA089 /* HertzARKitTests.swift */,
+				FCABB1A32269730F008DA089 /* Info.plist */,
+			);
+			path = HertzARKitTests;
+			sourceTree = "<group>";
+		};
+		FCABB1AB2269730F008DA089 /* HertzARKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB1AC2269730F008DA089 /* HertzARKitUITests.swift */,
+				FCABB1AE2269730F008DA089 /* Info.plist */,
+			);
+			path = HertzARKitUITests;
+			sourceTree = "<group>";
+		};
+		FCABB1BE2269873D008DA089 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB1BF22698750008DA089 /* EffectNodeHelper.swift */,
+				FCABB1C122698774008DA089 /* VideoHelper.swift */,
+				FCABB1C322698793008DA089 /* AnimationHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FCABB1C5226987C7008DA089 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB1C9226987E6008DA089 /* confetti.json */,
+				FCABB1C7226987E5008DA089 /* heart.json */,
+				FCABB1C6226987E5008DA089 /* loader.json */,
+				FCABB1CA226987E6008DA089 /* love_explosion.json */,
+				FCABB1C8226987E6008DA089 /* ROL_Connecting.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		FCABB1D0226987F4008DA089 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				FCABB1D122698809008DA089 /* Fire.mp4 */,
+				FCABB1D222698809008DA089 /* MANO_OJO.mov */,
+				FCABB1D52269880A008DA089 /* MuseoMarAnimacion.mov */,
+				FCABB1D32269880A008DA089 /* MuseoMarAnimacionAlpha.mov */,
+				FCABB1D42269880A008DA089 /* Plane.mov */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCABB1882269730E008DA089 /* HertzARKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCABB1B12269730F008DA089 /* Build configuration list for PBXNativeTarget "HertzARKit" */;
+			buildPhases = (
+				789575F9F6483D76C940B2D7 /* [CP] Check Pods Manifest.lock */,
+				FCABB1852269730E008DA089 /* Sources */,
+				FCABB1862269730E008DA089 /* Frameworks */,
+				FCABB1872269730E008DA089 /* Resources */,
+				F33F3ACC5F0D7FBCBC5FA3CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HertzARKit;
+			productName = HertzARKit;
+			productReference = FCABB1892269730E008DA089 /* HertzARKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCABB19C2269730F008DA089 /* HertzARKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCABB1B42269730F008DA089 /* Build configuration list for PBXNativeTarget "HertzARKitTests" */;
+			buildPhases = (
+				4B97E10245C6BBC56F8A3649 /* [CP] Check Pods Manifest.lock */,
+				FCABB1992269730F008DA089 /* Sources */,
+				FCABB19A2269730F008DA089 /* Frameworks */,
+				FCABB19B2269730F008DA089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCABB19F2269730F008DA089 /* PBXTargetDependency */,
+			);
+			name = HertzARKitTests;
+			productName = HertzARKitTests;
+			productReference = FCABB19D2269730F008DA089 /* HertzARKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCABB1A72269730F008DA089 /* HertzARKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCABB1B72269730F008DA089 /* Build configuration list for PBXNativeTarget "HertzARKitUITests" */;
+			buildPhases = (
+				2A911423CCC24F53E372B674 /* [CP] Check Pods Manifest.lock */,
+				FCABB1A42269730F008DA089 /* Sources */,
+				FCABB1A52269730F008DA089 /* Frameworks */,
+				FCABB1A62269730F008DA089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCABB1AA2269730F008DA089 /* PBXTargetDependency */,
+			);
+			name = HertzARKitUITests;
+			productName = HertzARKitUITests;
+			productReference = FCABB1A82269730F008DA089 /* HertzARKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCABB1812269730E008DA089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vivekanandhan Sundarrajan";
+				TargetAttributes = {
+					FCABB1882269730E008DA089 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FCABB19C2269730F008DA089 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FCABB1882269730E008DA089;
+					};
+					FCABB1A72269730F008DA089 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FCABB1882269730E008DA089;
+					};
+				};
+			};
+			buildConfigurationList = FCABB1842269730E008DA089 /* Build configuration list for PBXProject "HertzARKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCABB1802269730E008DA089;
+			productRefGroup = FCABB18A2269730E008DA089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCABB1882269730E008DA089 /* HertzARKit */,
+				FCABB19C2269730F008DA089 /* HertzARKitTests */,
+				FCABB1A72269730F008DA089 /* HertzARKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCABB1872269730E008DA089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCABB1972269730F008DA089 /* LaunchScreen.storyboard in Resources */,
+				FCABB1CF226987E6008DA089 /* love_explosion.json in Resources */,
+				FCABB1942269730F008DA089 /* Assets.xcassets in Resources */,
+				FCABB1D82269880A008DA089 /* MuseoMarAnimacionAlpha.mov in Resources */,
+				FCABB1CB226987E6008DA089 /* loader.json in Resources */,
+				FCABB1CE226987E6008DA089 /* confetti.json in Resources */,
+				FCABB1DC226A04D6008DA089 /* Phone_01.scn in Resources */,
+				FCABB1D62269880A008DA089 /* Fire.mp4 in Resources */,
+				FCABB1CC226987E6008DA089 /* heart.json in Resources */,
+				FCABB1922269730E008DA089 /* Main.storyboard in Resources */,
+				FCABB1DA2269880A008DA089 /* MuseoMarAnimacion.mov in Resources */,
+				FCABB1D92269880A008DA089 /* Plane.mov in Resources */,
+				FCABB1D72269880A008DA089 /* MANO_OJO.mov in Resources */,
+				FCABB1CD226987E6008DA089 /* ROL_Connecting.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCABB19B2269730F008DA089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCABB1A62269730F008DA089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A911423CCC24F53E372B674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HertzARKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B97E10245C6BBC56F8A3649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HertzARKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789575F9F6483D76C940B2D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HertzARKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33F3ACC5F0D7FBCBC5FA3CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HertzARKit/Pods-HertzARKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HertzARKit/Pods-HertzARKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCABB1852269730E008DA089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCABB1BD22698405008DA089 /* StatusViewController.swift in Sources */,
+				FCABB1C422698793008DA089 /* AnimationHelper.swift in Sources */,
+				FCABB1C022698750008DA089 /* EffectNodeHelper.swift in Sources */,
+				FCABB1BB226983DB008DA089 /* ViewController+ARSessionDelegate.swift in Sources */,
+				FCABB1C222698774008DA089 /* VideoHelper.swift in Sources */,
+				FCABB18F2269730E008DA089 /* ViewController.swift in Sources */,
+				FCABB18D2269730E008DA089 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCABB1992269730F008DA089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCABB1A22269730F008DA089 /* HertzARKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCABB1A42269730F008DA089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCABB1AD2269730F008DA089 /* HertzARKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCABB19F2269730F008DA089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCABB1882269730E008DA089 /* HertzARKit */;
+			targetProxy = FCABB19E2269730F008DA089 /* PBXContainerItemProxy */;
+		};
+		FCABB1AA2269730F008DA089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCABB1882269730E008DA089 /* HertzARKit */;
+			targetProxy = FCABB1A92269730F008DA089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCABB1902269730E008DA089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCABB1912269730E008DA089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCABB1952269730F008DA089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCABB1962269730F008DA089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCABB1AF2269730F008DA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCABB1B02269730F008DA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCABB1B22269730F008DA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741ED10C7DF34EE661DEC94E /* Pods-HertzARKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VWQP4BG8;
+				INFOPLIST_FILE = HertzARKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hertz.HertzRAC.HertzARKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCABB1B32269730F008DA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA24951DF52D2E8BF482CA6 /* Pods-HertzARKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VWQP4BG8;
+				INFOPLIST_FILE = HertzARKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hertz.HertzRAC.HertzARKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCABB1B52269730F008DA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FF45E38600474C0F0D2A80 /* Pods-HertzARKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VWQP4BG8;
+				INFOPLIST_FILE = HertzARKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hertz.HertzRAC.HertzARKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HertzARKit.app/HertzARKit";
+			};
+			name = Debug;
+		};
+		FCABB1B62269730F008DA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF590D0F0CC73B118A37E064 /* Pods-HertzARKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VWQP4BG8;
+				INFOPLIST_FILE = HertzARKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hertz.HertzRAC.HertzARKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HertzARKit.app/HertzARKit";
+			};
+			name = Release;
+		};
+		FCABB1B82269730F008DA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66829A6A762B66AEFFBCEAC7 /* Pods-HertzARKitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VWQP4BG8;
+				INFOPLIST_FILE = HertzARKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hertz.HertzRAC.HertzARKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HertzARKit;
+			};
+			name = Debug;
+		};
+		FCABB1B92269730F008DA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3B9DA1DA51CA905718F127 /* Pods-HertzARKitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VWQP4BG8;
+				INFOPLIST_FILE = HertzARKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hertz.HertzRAC.HertzARKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HertzARKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCABB1842269730E008DA089 /* Build configuration list for PBXProject "HertzARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCABB1AF2269730F008DA089 /* Debug */,
+				FCABB1B02269730F008DA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCABB1B12269730F008DA089 /* Build configuration list for PBXNativeTarget "HertzARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCABB1B22269730F008DA089 /* Debug */,
+				FCABB1B32269730F008DA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCABB1B42269730F008DA089 /* Build configuration list for PBXNativeTarget "HertzARKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCABB1B52269730F008DA089 /* Debug */,
+				FCABB1B62269730F008DA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCABB1B72269730F008DA089 /* Build configuration list for PBXNativeTarget "HertzARKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCABB1B82269730F008DA089 /* Debug */,
+				FCABB1B92269730F008DA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCABB1812269730E008DA089 /* Project object */;
+}

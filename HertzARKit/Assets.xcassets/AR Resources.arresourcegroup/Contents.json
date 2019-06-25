@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
+    {
+      "filename" : "Hertz_logo5.arreferenceimage"
+    },
+    {
+      "filename" : "Hertz_logo6.arreferenceimage"
+    },
+    {
+      "filename" : "Temp1_1.arreferenceimage"
+    }
+  ]
+}
