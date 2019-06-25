@@ -24,9 +24,7 @@ class StatusViewController: UIViewController {
     // MARK: - IBOutlets
     
     @IBOutlet weak private var messagePanel: UIVisualEffectView!
-    
     @IBOutlet weak private var messageLabel: UILabel!
-    
     @IBOutlet weak private var restartExperienceButton: UIButton!
     
     // MARK: - Properties
