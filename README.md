@@ -1,4 +1,4 @@
-# HertzARKit
+# ARKit
 
 ARKit Image Recognition
 
